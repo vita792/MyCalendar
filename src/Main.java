@@ -20,6 +20,9 @@ public class Main {
         int year = calendar.get(Calendar.YEAR);
         System.out.printf(" %d\n\n", year);
 
+        Phrase phrase = new Phrase();
+        phrase.detPhrase();
+
         calendar.set(Calendar.DAY_OF_MONTH, 1);//start calendar count days
         calendar.set(Calendar.MONTH, 0);//start calendar count month
 
